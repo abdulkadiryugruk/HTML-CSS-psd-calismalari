@@ -1,0 +1,43 @@
+/* text */
+
+.title-white{
+    color: white;
+}
+.title-grey{
+    color: #838383;
+}
+
+
+
+/* color */
+.orange{
+    background-color:#ef4a36;
+}
+.grey{
+    background-color: rgba(166, 166, 166, 1);
+}
+.dark-grey{
+    background-color: rgba(90, 90, 90, 1)
+}
+
+/* box */
+.white-box{
+    background-color: white;
+}
+.grey-box{
+    background-color: rgba(166, 166, 166, 1);
+}
+.dark-grey-box{
+    background-color: rgba(90, 90, 90, 1);
+}
+ /*share*/
+ .share{
+    width: 5rem;
+    height: 5rem;
+line-height: 5rem;
+color: white;
+font-size: 2rem;
+border: 0.1rem solid white ;
+border-radius: 50%;
+margin: 0.3rem;
+ }

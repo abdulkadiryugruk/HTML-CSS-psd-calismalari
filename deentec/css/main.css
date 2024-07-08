@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s ease;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+html {
+    width: 100%;
+    font-family: "montserrat", sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* header start */
+.header .navbar .box {
+    display: flex;
+    height: 172px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    background-color: white;
+}
+.header .navbar .box .grey-box {
+    height: 172px;
+    width: 17%;
+    z-index: 100;
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+    padding-top: 70px;
+    padding-right: 17px;
+    z-index: 105;
+    position:absolute;
+    left: 0;
+    top: 0;
+}
+.header .navbar .box .grey-box button {
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+}
+.header .navbar .box .white-box div{
+    display: flex;
+    justify-content: center;
+}
+
+.header .navbar .box .white-box div .logo img {
+    display: flex;
+    padding: 32px;
+}
+.header .navbar .box .white-box div .title-grey {
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+    z-index: 96;
+}
+.header .navbar .box .white-box div .title-grey h3 {
+    font-size: 40px;
+    z-index: 9;
+    
+}
+.header .navbar .box .white-box div .title-grey p {
+    font-size: 20px;
+    z-index: 94;
+}
+
+/* header end */
+
+/* section1 start*/
+.section1 .box{
+    display: flex;
+
+}
+.section1 .image-container {
+    position: relative;
+    top: -230px;
+    height: 1197px; 
+    width: 89%;
+    overflow: hidden;
+    z-index: 1; 
+    flex-grow: 1; 
+}
+.section1 .box .image-container img {
+    width: 89%; 
+    height: 1025px; 
+    object-fit: cover; 
+    position:absolute;
+    top: 55px; 
+    right: 0; 
+    z-index: -1;
+
+}
+.section1 .box .image-container .title-white {
+    position: absolute;
+    top: 776px;
+    left: 15%; 
+    color: white;
+    padding: 10px;
+    text-align: left; 
+    font-size: 86px;
+    opacity: 1;
+    line-height: 85px;
+    font-weight: 300;
+    z-index: 2; 
+}
+
+.section1 .box .grey-box {
+    width: 25.5%;
+    height: 980px;
+    display: flex;
+    align-items: flex-start; 
+    z-index: -5;
+    position: absolute;
+}
+
+.section1 .box .box3{
+    width: 33.4%;
+    height: 757px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    right: 7.4%;
+    bottom: -601px;
+    z-index: 10;
+}
+.section1 .box .box3 .daire{
+    width: 258px;
+    height: 258px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -50px;
+    z-index: 110;
+    
+}
+.section1 .box .box3 .daire .daire2{
+    width: 212px;
+    height: 212px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: dotted white;
+}
+.section1 .box .box3 .daire .daire2 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1 .box .box3 .daire .daire2 .logo img{
+    display: block
+    
+}
+.section1 .box .box3 .daire .daire2 .cizgi{
+    display: block;
+    margin-top: 10px;
+}
+.section1 .box .box3 p{
+    height: 18.5%;
+    width: 72%;
+    right: 15%;
+    padding-top: 306px;
+    font-size: 25px;
+    color: white;
+    z-index: 20;
+}
+.section1 .box .box3 .kare{
+    height: 115px;
+    width: 196px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 15;
+    bottom: -335px;
+}
+.section1 .box .box3 .kare2{
+    background-color: #f3f3f3;
+    width: 196px;
+    height: 115px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 16;
+    bottom: -250px;
+}
+.section1 .box .box3 .dikdortgen img{
+    position: relative;
+    z-index: 14;
+    display: flex;
+    align-self: flex-end;
+    bottom: -296px;
+    left: 1%;
+    right: 1%;
+}
+/* section1 end*/
+
+/* section2 start */
+
+.section2 .box{
+    height: 945px;
+    width: 100%;
+    background-color: #f3f3f3;
+    display: flex;
+    position: relative;
+    top: -350px;
+    z-index: -10;
+}
+.section2 .box .box2{
+background-color: #f3f3f3;
+    position: relative;
+    width: 37.5%;
+    top: 217px;
+    left: 5.2%;
+    z-index: -14;
+}
+.section2 .box .box2 .deentech{
+    display: flex;
+    left: 0%;
+    font-size: 25px;
+}
+.section2 .box .box2 .baslik1{
+    font-size: 68px;
+    font-weight: 100;
+    left: 0%;
+    text-align: left;
+    z-index: 2;
+}
+
+.section2 .box .box2 .baslik2{
+    font-size: 68px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+z-index: 3;
+}
+.section2 .box .box2 p{
+    width: 100%;
+    height: 279px;
+    left: 0%;
+    font-size: 25px;
+  line-height: 37px;
+color: #43434f;
+    text-align: left;
+    z-index: 4;
+}
+
+
+.section2 .box .noktalar{
+    left: 4%;
+    margin-left: 10px;
+    position: relative;
+
+    z-index: -15;
+}
+.section2 .box .noktalar img{
+    width: 100%;
+}
+
+
+/* section2 end */
+
+/* section3 start */
+.section3 .box{
+    display: flex;
+    position: relative;
+    top: -350px;
+}
+.section3 .box .box1 {
+    width: 42.3%;
+    height: 705px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 124px;
+    z-index: 20;
+}
+
+.section3 .box .box1 .cizgi {
+    width: 219px;
+    height: 0.86%;
+    align-self: flex-end;
+    margin-top: 101px;
+    margin-right:-128px ;
+    margin-bottom: 41px; 
+    
+}
+
+.section3 .box .box1 ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 107px 22%; 
+    list-style-type: none;
+    position: relative;
+    left: 13.8%;
+}
+
+.section3 .box .box1 ul li {
+    width: 21%;
+    height: 52px;
+
+}
+
+
+
+
+
+
+.section3 .box .metin{
+        position: relative;
+        margin-left: 7.76%;
+        top: 124px;
+
+        
+        
+    }
+    .section3 .box .metin .deentech{
+        display: flex;
+        font-size: 25px;
+    }
+    .section3 .box .metin .baslik{
+        font-size: 68px;
+        font-weight: 100;
+        text-align: left;
+
+    }
+    
+    .section3 .box .metin p{
+        width: 100%;
+        height: 279px;
+        font-size: 25px;
+      line-height: 37px;
+    color: #43434f;
+        text-align: left;
+    }
+    
+
+
+/* section3 end */
+/* footer start */
+
+.footer .box{
+    height: 475px;
+}
+
+.footer .box .box1{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+position: relative;
+top: -350px;
+width: 100%;
+}
+.footer .box .box1 .ref-kutu{
+    background-color: white;
+    width: 460px;
+    height: 101px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 4.27%;
+    z-index: 11
+}
+.footer .box .box1 .ref-kutu h6{
+    font-size: 30px;
+    letter-spacing: 4px;
+    left: 0%;
+    color: #ef4a36;
+}
+.footer .box .box1 .harita{
+    position: relative;
+    top: -101px;
+    z-index: 10;
+}
+.footer .box .box1 .harita img{
+    width: 100%;
+}
+.footer .box .altbar{
+    background-color: #ef4a36;
+    position: relative;
+    top: -650px;
+    width: 100%;
+    z-index: 11;
+}
+.footer .box .altbar .ust{
+    width: 100%;
+    height: 120px;
+    background-color: #ef4a36;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 112px;
+    padding-right: 184px;
+}
+.footer .box .altbar .ust .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.footer .box .altbar .ust .logo .title-grey h3{
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: white;
+
+}
+.footer .box .altbar .ust .logo .title-grey p{
+    font-size: 20px;
+    color: white;
+
+}
+
+.footer .box .altbar .ust .share{
+    width: 306px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: white;
+}
+.footer .box .altbar .ust .share a{
+    margin: 20px;
+    color: white;
+
+}
+.footer .box .altbar .orta{
+    height: 250px;
+    background-color: #ef4a36;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 17px;
+    color: white;
+
+}
+.footer .box .altbar .orta .text1{
+    position: relative;
+    left: 50px;
+    line-height: 18px;
+    margin-right: 00px;
+}
+.footer .box .altbar .orta .bos{
+    width: 100px;
+    height: 100px;
+    
+}
+.footer .box .altbar .orta .text2,
+.footer .box .altbar .orta .text3,
+.footer .box .altbar .orta .text4{
+    line-height: 18px;
+    position: relative;
+}
+.footer .box .altbar .orta .text3 {
+    right: 60px;
+}
+.footer .box .altbar .orta .text4{
+left: -120px;
+}
+
+.footer .box .altbar .alt .cizgi{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 20px;
+    width: 100%;
+}
+.footer .box .altbar .alt .son{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 50px;
+    color: white;
+}
+.footer .box .altbar .alt .son .web{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+.footer .box .altbar .alt .son .web a{
+    color: white;
+}
+
+
+
+/* footer end */
