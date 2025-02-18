@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* header */
+.header .navbar{
+    background-color: transparent;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .navbar .logo{
+    position: relative;
+    left: 8.4%;
+    filter: brightness(1.5);
+}
+.header .navbar .box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45.2%;
+    left: 8.4%;
+    font-size: 18px;
+    z-index: 100;
+}
+.header .navbar .box a{
+    color: white;
+
+}
+.header .navbar .bilgi{
+    background-color: #d10b0f;
+    height: 196px;
+    width: 12.1%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: -560px;
+    right: 0;
+}
+.header .navbar .bilgi .img1{
+position: relative;
+top: -250px;
+}
+.header .navbar .bilgi .img2{
+    position: relative;
+    height: 59px;
+    width: 61px;
+    margin: 10px;
+
+top: -250px;
+
+}
+.header .navbar .bilgi a{
+    position: relative;
+    color: white;
+
+top: -250px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> navbar end <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> section1 start <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.section1{
+    position: relative;
+}
+.section1 .box{
+    position: relative;
+    width: 100%;
+}
+.section1 .box img{
+    width: 100%;
+    position: absolute;
+    top: -190px;
+    left: 0%;
+    z-index: -1;
+    background-color: #303746;
+
+}
+.section1 .box .box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 987px;
+    width: 87.9%;
+    background-color: #e4e4e4;
+    z-index:91;
+}
+.section1 .box .box1 .text{
+    position: absolute;
+    z-index: 20;
+}
+.section1 .box .box1 .text ul{
+    list-style: none;
+    position: absolute;
+    font-size: 21px;
+    font-weight: 500;
+}
+.section1 .box .box1 .text ul li:nth-child(1){
+    position: relative;
+    left: -500px;
+    top: -230px;
+}
+.section1 .box .box1 .text ul li:nth-child(2){
+    position: relative;
+    top: -230px;
+    right: -400px;
+}
+.section1 .box .box1 .text ul li:nth-child(3){
+    position: relative;
+    left: -730px;
+    top: 200px;
+
+}
+.section1 .box .box1 .text ul li:nth-child(4){
+    position: relative;
+    top: 200px;
+    right: -570px;
+}
+.section1 .box .box1 .daire1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1110px;
+    height: 1110px;
+    border-radius: 50%;
+    border: 1px solid red;
+    box-sizing: border-box;
+    z-index: 2;
+    position: absolute;
+    top: 161px;
+}
+.section1 .box .box1 .daire1 .daire2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1080px;
+    height: 1080px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 11;
+    border: 30px solid #fff;
+    box-sizing: border-box;
+    z-index: 3;
+
+}
+.section1 .box .box1 .daire1 .daire2 .daire3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1030px;
+    height: 1030px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 12;
+    border-radius: 50%;
+    border: 30px solid  #b6b6b6
+}
+.section1 .box .box1 .daire1 .daire2 .daire3 img{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 982px;
+    height: 982px;
+    border-radius: 50%
+}
+.section1 .box .box1 .daire1 .daire2 .daire3 .box2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: -102px;
+    z-index: 150;
+}
+.section1 .box .box1 .daire1 .daire2 .daire3 .box2 h3{
+    font-size: 47px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+.section1 .box .box1 .daire1 .daire2 .daire3 .box2 h1{
+    font-size: 97px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+.section1 .box .box1 .daire1 .daire2 .daire3 .box2 img{
+    position: relative;
+    width: 647px;
+    height: 354px;
+}
+.section1 .box .box1 .daire1 .daire2 .daire3 .daire4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 982px;
+    height: 982px;
+    position:absolute;
+    border-radius: 50%;
+    border: 30px solid #d5d5d5;
+    z-index: 15;
+    display: flex;
+    box-sizing: border-box;
+    top: 0px;
+    left: 0px;
+    
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> section1 end <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> section2 start <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* >>>>>>>>>> sol taraf <<<<<<<<<< */
+.section2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section2 .harita img{
+    position: absolute;
+    width: 75.72%;
+    height: 727px;
+    left: 5.8%;
+}
+.section2 .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.section2 .box .box1{
+    width: 36.4%;
+    margin-left: 7.1%;
+    margin-top: 444px;
+    background-color: transparent;
+}
+
+
+.section2 .box .box1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section2 .box .box1 .metin-box{
+    margin-left: 9.15%;
+    width: 100%;
+}
+.section2 .box .box1 .metin-box img{
+    position: absolute;
+    left: -50px;
+    top: -200px;
+}
+.section2 .box .box1 .metin-box h4{
+    font-size: 25px;
+    width: 100%;
+
+}
+.section2 .box .box1 .metin-box div{
+    color: #5f5f5f;
+    font-size: 68px;
+    width: 100%;
+
+}
+.section2 .box .box1 .metin-box h1{
+    color: #5f5f5f;
+    font-size: 68px;
+    width: 100%;
+
+}
+.section2 .box .box1 .p1{
+    font-size: 30px;
+    color: #5f5f5f;
+    margin-left: 9.15%;
+    width: 100%;
+
+}
+.section2 .box .box1 .p2{
+    font-size: 30px;
+    color: #5f5f5f;
+    margin:147px 9.15% 175px 0;
+    width: 100%;
+    
+}
+.section2 .box .box1 a{
+    font-size: 30px;
+    color: #5f5f5f;
+    margin: 64px;
+    margin-left: 9.15%;
+}
+.section2 .box .box1 a img{
+    padding-left: 50px;
+}
+.section2 .box .box1 .noktalar{
+    position: absolute;
+    display: flex;
+    bottom: -200px;
+    left: -150px;
+    
+    z-index: 21;
+}
+.section2 .box .box1 .daire{
+    width: 796px;
+    height: 796px;
+    background-color: #203972;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: -60px;
+    margin-bottom: 33px;
+    z-index: 100;
+}
+.section2 .box .box1 .daire .oklar{
+    position: absolute;
+}
+.section2 .box .box1 .daire .cizgi{
+    position: relative;
+    right: -370px;
+    top: 50px;
+}
+.section2 .box .box1 .daire .logolar{
+    width: 550px;
+    height: 375px;
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.section2 .box .box1 .daire .oklar{
+    position: relative;
+    margin-top: 200px;
+    left: -10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section2 .box .box1 .daire .logolar img{
+margin: 40px;
+}
+.section2 .box .box1 .daire .logolar img:nth-child(4){
+    width: 176px;
+    height: 31px;
+}
+
+
+
+
+
+
+
+/* >>>>>>>>>> sag taraf <<<<<<<<<< */
+
+
+.section2 .box .box2{
+    width: 36.6%; 
+    margin-right: 12%; 
+    margin-bottom: 232px;
+    margin-top: 444px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+}
+.section2 .box .box2 .logolar{
+    margin-bottom: 54px;
+}
+.section2 .box .box2 .p1{
+    font-size: 30px;
+    line-height: 51px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 200px;
+    width: 100%;
+    position: relative;
+    color: #5f5f5f;
+}
+.section2 .box .box2 .sagustok{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.section2 .box .box2 .sagustok .bir{
+    position: relative;
+    right: -255px;
+    bottom: -220px;
+}
+.section2 .box .box2 .sagustok .iki{
+    position: relative;
+    right: -250px;
+    bottom: -100px;
+}
+.section2 .box .box2 .sagustok .uc{
+    position: relative;
+    right: -124px;
+    bottom: -50px;
+}
+.section2 .box .box2 .p2{
+    font-size: 30px;
+    line-height: 51px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 102px;
+    width: 100%;
+    position: relative;
+    color: #5f5f5f;
+}
+
+.section2 .box .box2 .baslik-box{
+    margin-top: 263px;
+    margin-bottom: 50px;
+    width: 100%;
+    color: #5f5f5f;
+}
+.section2 .box .box2 .baslik-box h4{
+    font-size: 25px;
+}
+.section2 .box .box2 .baslik-box p{
+    font-size: 68px;
+    width: 100%;
+    position: relative;
+}
+.section2 .box .box2 a{
+    font-size: 30px;
+    color: #5f5f5f;
+    margin-left: 40%
+}
+.section2 .box .box2 a img{
+    padding-left: 50px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>section2 end<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>footer start<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.footer {
+    position: absolute;
+    background-color: #dfdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    z-index: 20;
+}
+.footer .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.footer .box .box1{
+    position: relative;
+    left: 9.3%;
+    margin-bottom: 41px;
+    color: #626262;
+}
+.footer .box .box1 .logo{
+    position: relative;
+    margin-top: 135px;
+    margin-bottom: 10px;
+}
+.footer .box .box2{
+    position: relative;
+    top: -49px;
+    left: 15%;
+    color: #626262;
+    cursor: pointer;
+}
+.footer .box .box3{
+    position: relative;
+    top: -46px;
+    left: 10%;
+    color: #626262;
+    cursor: pointer;
+}
+.footer .box .icons{
+    position: relative;
+    background-color: #d10b0f;
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    width: 232px;
+    height: 196px;
+    top: -175px;
+}
+.footer .box .icons img{
+    margin-top: 36px;
+    cursor: pointer;
+
+}
+
+.footer .bot{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+}
+.footer .bot .yazi{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 21px;
+    margin-bottom: 60px;
+}
+.footer .bot .yazi .solalt{
+    margin-left: 50px;
+    color: #fff;
+}
+.footer .bot .yazi a{
+    margin-right: 50px;
+    color: #5e716f;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>footer end<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
